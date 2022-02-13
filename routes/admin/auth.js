@@ -29,7 +29,7 @@ async (req, res) =>{
 
     req.session.userId = user.id;
     
-    res.direct('admin/prodcuts');
+    res.direct('admin/products');
 });
 
 router.get('/signout', (req, res) => {
